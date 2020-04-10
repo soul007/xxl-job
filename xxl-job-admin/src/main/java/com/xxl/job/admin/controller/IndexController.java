@@ -37,7 +37,7 @@ public class IndexController {
 
 		Map<String, Object> dashboardMap = xxlJobService.dashboardInfo();
 		model.addAllAttributes(dashboardMap);
-		System.out.println("aa");
+		System.out.println("bb");
 		return "index";
 	}
 
